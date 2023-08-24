@@ -12,15 +12,38 @@ public class LaboratrorioPOO {
         int num1 = 1000000000;
         int num2 = 2000000000;
         int resultado = num1 + num2;
-
         System.out.println(resultado);
+        ///////////////////////////////////
 
-        int division = 1/0;
-        System.out.println(division);
+        int division1 = 28/10;
+        int division2 = -28/10;
+        int division3 = 1/2;
+        // int division4 = 1/0; // Exception in thread "main" java.lang.ArithmeticException: / by zero
+        System.out.println(division1);
+        System.out.println(division2);
+        System.out.println(division3);
+        // System.out.println(division4);
+
+        /////////////////////////
         
-        int modulo = 7%-3;
-        System.out.println(modulo);
-        
+        int modulo1 = 7 % 3;
+        int modulo2 = -7 % 3;
+        int modulo3 = 7 % -3;
+        System.out.println(modulo1);
+        System.out.println(modulo2);
+        System.out.println(modulo3);
+
+        //////////////////////////
+
+        int max = 70;
+        int sum = 0;
+
+        for (int k = 1; k <= max; k++)
+            sum = sum + k;
+
+        System.out.println("La suma de los 70 primeros numeros es: " + sum);
+
 
     }
+    
 }
